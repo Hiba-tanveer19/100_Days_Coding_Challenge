@@ -1,4 +1,4 @@
-// Removing all usernames ensures the message "We need to find some users!" is printed.//
+//Question 31: No Users: Ensure your user list isn’t empty.//
 //Empty array//
 let usernames: string[] = [];
 if (usernames.length === 0) {
@@ -8,7 +8,7 @@ if (usernames.length === 0) {
 }
 
 
-//Array Method//
+//Question 32: Checking Usernames: Ensure uniqueness in usernames.//
 let current_users: string[] = ["user1", "admin", "user3", "user4", "user5"];
 let new_users: string[] = ["User1", "User6", "user7", "admin", "User9"];
 
@@ -21,7 +21,7 @@ new_users.forEach(new_users => {
 });
 
 
-//Array Method//
+//Question 33: Ordinal Numbers: Display numbers with their ordinal suffixes.//
 let numbers: number[] = [1,2,3,4,5,6,7,8,9,10]
 
 numbers.forEach(numbers => {
