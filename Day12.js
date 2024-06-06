@@ -9,7 +9,7 @@ var animals = ["Cat", "Rabbit", "Chicken"];
 animals.forEach(function (animals) {
     console.log("A ".concat(animals, " would make a great pet"));
 });
-console.log("Any of these animals would make a great pet");
+console.log("Any of these animals would make a great pet!");
 //Function//
 function make_shirt(size, message) {
     console.log("Making a ".concat(size, " t-shirt with the message ").concat(message, " printed on it"));
