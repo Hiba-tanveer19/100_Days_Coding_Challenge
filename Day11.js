@@ -1,4 +1,4 @@
-// Removing all usernames ensures the message "We need to find some users!" is printed.//
+//Question 31: No Users: Ensure your user list isn’t empty.//
 //Empty array//
 var usernames = [];
 if (usernames.length === 0) {
@@ -7,7 +7,7 @@ if (usernames.length === 0) {
 else {
     console.log("Greet users");
 }
-//Array Method//
+//Question 32: Checking Usernames: Ensure uniqueness in usernames.//
 var current_users = ["user1", "admin", "user3", "user4", "user5"];
 var new_users = ["User1", "User6", "user7", "admin", "User9"];
 new_users.forEach(function (new_users) {
@@ -18,7 +18,7 @@ new_users.forEach(function (new_users) {
         console.log("".concat(new_users, " is available!"));
     }
 });
-//Array Method//
+//Question 33: Ordinal Numbers: Display numbers with their ordinal suffixes.//
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 numbers.forEach(function (numbers) {
     var suffix = "th";
