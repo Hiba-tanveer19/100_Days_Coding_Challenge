@@ -7,7 +7,7 @@ ice_cream.forEach(ice_cream => {
 console.log("I really love ice-cream!");
 
 
-//Question 35: Animals: Highlight animals with a common trait//
+//Question 35: Animals: Highlight animals with a common trait.//
 let animals: string[] = ["Cat", "Rabbit", "Chicken"];
 
 animals.forEach(animals => {
