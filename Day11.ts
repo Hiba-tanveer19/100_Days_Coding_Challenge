@@ -21,6 +21,12 @@ new_users.forEach(new_users => {
 });
 
 
+
+
+
+
+
+
 //Question 33: Ordinal Numbers: Display numbers with their ordinal suffixes.//
 let numbers: number[] = [1,2,3,4,5,6,7,8,9,10]
 
