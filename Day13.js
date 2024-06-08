@@ -1,4 +1,4 @@
-//Function//
+//Question 37: Large Shirts: Default values in make_shirt().//
 // Default large and message//
 function make_shirt(size, message) {
     if (size === void 0) { size = "large"; }
@@ -10,7 +10,7 @@ make_shirt();
 make_shirt("medium");
 // Custom message, small size//
 make_shirt("small", "Dive into Coding");
-//Function//
+//Question 38: Cities: Describing cities with a function.//
 function describe_city(city, country) {
     if (country === void 0) { country = "Pakistan"; }
     console.log("".concat(city, " is in ").concat(country));
@@ -18,7 +18,7 @@ function describe_city(city, country) {
 describe_city("Karachi");
 describe_city("Lahore");
 describe_city("Tokyo", "Japan");
-//Function//
+//Question 39: City Names: Formatting city-country pairs.//
 function city_country(city, country) {
     return "I love ".concat(city, ", ").concat(country);
 }
